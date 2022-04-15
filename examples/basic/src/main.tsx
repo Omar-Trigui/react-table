@@ -105,6 +105,7 @@ function App() {
   return (
     <div className="p-2">
       <table {...instance.getTableProps()}>
+        <h1>test</h1>
         <thead>
           {instance.getHeaderGroups().map(headerGroup => (
             <tr {...headerGroup.getHeaderGroupProps()}>
